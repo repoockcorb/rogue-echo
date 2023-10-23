@@ -1,7 +1,7 @@
 # rogue-echo (Air Braked Bike)
 ![Alt Text](images/rogue-echo-air-bike.jpg)
 
-The Rogue Echo Bike is a popular fitness machine known for its durability and effectiveness in providing a challenging workout. It's an air resistance exercise bike designed for both high-intensity interval training (HIIT) and steady-state cardio workouts. Here's a brief description of the Rogue Echo Air Bike:
+The Rogue Echo Bike is a popular fitness machine known for its durability and effectiveness in providing a challenging workout. It's an air resistance exercise bike designed for both high-intensity interval training (HIIT) and steady-state cardio workouts.
 
 ## Custom User Interface
 ![Alt Text](images/interface.png)
@@ -10,7 +10,7 @@ The rogue-echo interface is a Graphical user interface (GUI) designed for workin
 ## PhidgetBridge
 Determining max torque required for the bike to spec the motor and gear reduction a phidget bridge with a XTRAN Load Cell was used and attached to a pedal on the bike. The `phidgetbridge.py` file records the output to an excel document stored in `output` called _force data_.
 
-* Driver Download for '_1046_0B_' can be found [here]([https://github.com/repoockcorb/PrusaSlicer-Profiles/archive/refs/heads/main.zip](https://www.phidgets.com/?prodid=1027#Tab_User_Guide)) (User Guide > Download _64-bit Installer Download_) 
+* Driver Download for '_1046_0B_' can be found [here](https://www.phidgets.com/?prodid=1027#Tab_User_Guide) (User Guide > Download _64-bit Installer Download_) 
 
 ![Alt Text](images/1046_0B.jpg)
 
