@@ -8,7 +8,7 @@ a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[('C:\\Users\\bcoo6642\\OneDrive - The University of Sydney (Staff)\\Desktop\\Air Braked Bike\\rogue-echo-air-bike.jpg', '.')],
+    datas=[('rogue-echo-air-bike.jpg', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -41,5 +41,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['C:\\Users\\bcoo6642\\OneDrive - The University of Sydney (Staff)\\Desktop\\Air Braked Bike\\rogue_echo.ico'],
+    icon=['rogue_echo.ico'],
 )

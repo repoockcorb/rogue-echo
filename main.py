@@ -23,7 +23,7 @@ resolution = 0.1  # plot every 0.1 seconds
 
 #     return os.path.join(base_path, relative_path)
 
-# Logo = resource_path("rogue-echo-air-bike.jpg")
+# Logo = resource_path("images/rogue-echo-air-bike.jpg")
 
 
 # def get_path(filename):
@@ -163,7 +163,7 @@ class MovingGraphApp(QMainWindow):
         self.main_layout.addLayout(self.image_layout)
 
         self.image_label = QLabel()
-        image_path = "rogue-echo-air-bike.jpg"
+        image_path = "images/rogue-echo-air-bike.jpg"
         image_pixmap = QPixmap(image_path)
         self.image_label.setPixmap(image_pixmap)
         self.image_label.setAlignment(Qt.AlignRight | Qt.AlignBottom)
@@ -322,7 +322,7 @@ class MovingGraphApp(QMainWindow):
         msg_box.setText(message)
         msg_box.setStandardButtons(QMessageBox.Ok)
         msg_box.exec_()
-
+ 
     def update_rpm_display(self, rpm):
         self.rpm_label.setText(f"RPM: {rpm}")
 

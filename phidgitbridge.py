@@ -36,7 +36,7 @@ def log_data(force_kilograms):
     data = pd.concat([data, new_data], ignore_index=True)
 
     # Save the DataFrame to the Excel file
-    data.to_excel('force_data.xlsx', index=False)
+    data.to_excel('force data.xlsx', index=False)
 
 def main():
     # Create your Phidget channel
