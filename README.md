@@ -1,5 +1,6 @@
 # rogue-echo (Air Braked Bike)
 ![Alt Text](images/rogue-echo-air-bike.jpg)
+
 The Rogue Echo Bike is a popular fitness machine known for its durability and effectiveness in providing a challenging workout. It's an air resistance exercise bike designed for both high-intensity interval training (HIIT) and steady-state cardio workouts. Here's a brief description of the Rogue Echo Air Bike:
 
 ## Custom User Interface
@@ -14,3 +15,15 @@ Determining max torque required for the bike to spec the motor and gear reductio
 ![Alt Text](images/1046_0B.jpg)
 
 # requirements.txt
+
+odrive==0.6.7
+pyinstaller==5.13.0
+pyqtgraph==0.13.3
+PyQt5==5.15.9
+numpy==1.25.1
+matplotlib==3.7.2
+openpyxl==3.1.2
+pyserial==3.5
+thonny==4.1.3
+Phidget22==1.17.20231004
+pandas==2.1.1
